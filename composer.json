@@ -1,0 +1,18 @@
+{
+    "name": "polonaiz/scribe",
+    "type": "library",
+    "authors": [
+        {
+            "name": "polonaiz",
+            "email": "polonaiz@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Thrift\\": "src/Thrift",
+            "Scribe\\": "src/Thrift/Packages/Scribe"
+        }
+    }
+}
